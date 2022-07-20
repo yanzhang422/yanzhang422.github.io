@@ -1,5 +1,4 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+## Welcome to My blog ##
+**My Blog** is a personal website to record my study planning.
+### Write exclusively for My blog ###
+Something not relevant to technical studying will not be included.
