@@ -1,7 +1,7 @@
 # What is IBM Watson
 It empowers data scientists, developers and analysts to build, run and manager AI models, and optimize decisions anywhere on IBM Cloud platform for data. It can alliance with other open source frameworks like PyTorch, TensorFlow and scikit-learn, work with Jupyter notebooks, JupyterLab and CLIs - or in languages such as Python, R and Scala.
 
-[![N|Solid](https://g6s7p3x6.rocketcdn.me/wp-content/uploads/2017/09/IBM-Watson.png)](https://www.healtheconomics.com/industry-news/stat-report-ibm-watson-misses-mark-on-cancer)
+![IBM Watson](https://g6s7p3x6.rocketcdn.me/wp-content/uploads/2017/09/IBM-Watson.png)
 
 ## How Watson Building
 Watson uses question and analysis work flow to solve human facing problems. More details can visit from [IBM Watson Principle](https://blog.csdn.net/iin729/article/details/112143914?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0-112143914-blog-123256535.pc_relevant_multi_platform_whitelistv2_exp3w&spm=1001.2101.3001.4242.1&utm_relevant_index=3).
