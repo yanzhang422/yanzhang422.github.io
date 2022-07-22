@@ -32,6 +32,7 @@ How to setup watson developing environment can following this linkage, [Watson E
 
 ## IBM Watson Analytics
 - [IBM Watson Analytics vs Microsoft Azure Machine Learning]
+- [Chatbot Advisor with Amazon Lex bot]
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
@@ -50,3 +51,4 @@ How to setup watson developing environment can following this linkage, [Watson E
    [Create Chatbot on Android by IBM Watson]: <https://blog.csdn.net/cunjie3951/article/details/106918998?spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-10-106918998-blog-106919230.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-10-106918998-blog-106919230.pc_relevant_aa&utm_relevant_index=16>
    [IBM Chatbot on Web]: <https://blog.csdn.net/zhaowei198311/article/details/88243787?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6-88243787-blog-123256535.pc_relevant_multi_platform_whitelistv2_exp3w&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6-88243787-blog-123256535.pc_relevant_multi_platform_whitelistv2_exp3w&utm_relevant_index=10>
    [IBM Watson Analytics vs Microsoft Azure Machine Learning]: <https://blog.csdn.net/happytofly/article/details/80121637?spm=1001.2101.3001.6650.16&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7Edefault-16-80121637-blog-106919230.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7Edefault-16-80121637-blog-106919230.pc_relevant_aa&utm_relevant_index=22>
+   [Chatbot Advisor with Amazon Lex bot]:<https://github.com/Femi-tech/Robo-Advisor>
