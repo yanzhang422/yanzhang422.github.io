@@ -1,4 +1,4 @@
-# 开发者眼中最好的 22 款 GUI 测试工具
+# Test Best 22 GUI Test Tools for Developers
 ## Abbot - Java GUI 测试框架
 Abbot是一个基于GUI的简单的Java测试框架，它能够帮助开发者测试Java用户界面。 它提供事件自动生成和验证Java GUI组件，使您能够轻松地启动，探索和控制应用程序。开发者可通过脚本和编译代码两种方式来使用Abbot框架，这就是为什么它被认为是在开发者的系统 测试和QA的功能测试中都能用到的最完美的GUI测试工具。
 
