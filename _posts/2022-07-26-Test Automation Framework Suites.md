@@ -1,4 +1,4 @@
-# Courses
+# Automation Functional / Regression Framwork
 ## Test Automation Framework (Spring Boot+Selenium+BDD)
 It is an automation framework to test Springboot application with Cucumber, Rest Assured and TestNG
 ![SpringBoot Testing with Cucumber and TestNG](https://qaautomationexpert.files.wordpress.com/2022/06/image-75.png?w=1200)
