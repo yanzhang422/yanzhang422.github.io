@@ -1,4 +1,4 @@
-# Automated modeling and AI framework
+# AI Test Automation
 ## [Eggplant-HMI 自动化测试软件](https://www.eggplantsoftware.com/products/test-automation-intelligence)
 传统的 HMI（人机交互系统）测试方法是纯手工测试，依靠人眼判断测试结果和手工记录，效率低下。摄像头 + 机械手也是常见手段，输入测试用例过程繁琐，机械手执行动作耗时，摄像头图片记录精度不高。
 
