@@ -1,4 +1,4 @@
-# Test Automation Q&A
+# Test Automation Question and Answer
 ## Selenium
 1. 什么是自动化测试、自动化测试的优势是什么？
 通过工具或脚本代替手工测试执行过程的测试都叫自动化测试。
