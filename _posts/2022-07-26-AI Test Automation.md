@@ -449,14 +449,14 @@ TestCraft也提供了控件的动态重新绑定机制——“on-the-fly rebind
 
 ## Perfecto
 Perfecto是一款商业软件，提供云化的测试自动化解决方案，用于Web和移动应用的测试。它远程提供多款手机及平板真机，支持在远程iOS和Android设备上进行手工或自动化测试，可以在多台设备上并行运行自动化测试。基于录制-回放的无代码化测试用例开发是Perfecto提供的功能之一，如下图所示，实时捕捉界面上的操作在左边生成和调整测试步骤。
-![Perfecto interface](https://mmbiz.qpic.cn/mmbiz_png/CMOUUEcN8FdAozd33l9IS9yicuEs56oFKLB6pm8gqjiafjn5KiaBZYm018g2RkYUld6PlwKqRp7Mnvk20ibjd9tI9w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
-大家有兴趣可以到其官网上看一下demo: https://www.perfecto.io/codeless-automation。 基于AI的自愈功能让测试脚本能够连续运行，自我完善。另外它还提供基于AI技术的测试分析和缺陷分类,帮助快速定位缺陷。总之，值得大家去深入学习它所提供的这些智能化的功能。
+![Perfecto](https://mmbiz.qpic.cn/mmbiz_png/CMOUUEcN8FdAozd33l9IS9yicuEs56oFKLB6pm8gqjiafjn5KiaBZYm018g2RkYUld6PlwKqRp7Mnvk20ibjd9tI9w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+大家有兴趣可以到其官网上看一下[demo](https://www.perfecto.io/codeless-automation)。 基于AI的自愈功能让测试脚本能够连续运行，自我完善。另外它还提供基于AI技术的测试分析和缺陷分类,帮助快速定位缺陷。总之，值得大家去深入学习它所提供的这些智能化的功能。
 
 ## TestingWhiz
 TestingWhiz也可以支持Web及移动端的UI自动化测试，以及Web Service的API测试。基于关键字和数据驱动测试用例。它提供的Visual Recorder可以支持桌面应用、flash应用的元素识别和web UI测试。TestingWhiz提供recorder功能可以录制和存储web应用控件，桌面应用控件，以及移动应用的控件。
 ![TestingWhiz interface](https://mmbiz.qpic.cn/mmbiz_png/CMOUUEcN8FdAozd33l9IS9yicuEs56oFKv49AhCOkC8bYkWiawextpLqwFedGn2SpMOFcOzAx5rDmxY4IGZJ7uQw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
-## {Arextest}(https://github.com/arextest)
+## [Arextest](https://github.com/arextest)
 It is a “Differential Testing” and “Record and Replay Testing” Tool. It is free software
 - Test restful API by record, replay and stub request/response.
 - Differential testing known as differential fuzzing, is a popular software testing technique that attempts to detect bugs, by providing the same input to a series of similar applications and observing differences in their execution
@@ -476,7 +476,7 @@ The framework is not limited to specific AutoML tasks (such as pre-processing of
 A serverless framework for continuous machine learning pipeline automation
 
 ## [Qaviton](https://github.com/qaviton/qaviton)
-The first open source project to facilitate a unified testing automation framework for Web, Mobile & IoT with Machine Learning, AI and much more: https://www.qaviton.com
+The first open source project to facilitate a unified testing automation framework for Web, Mobile & IoT with Machine Learning, AI and much [more](https://www.qaviton.com).
 Inspired by Appium & Selenium, Qaviton is a play on words for Graviton. In theories of quantum gravity, the graviton is the hypothetical elementary particle that mediates the force of gravity. Qaviton is like the Graviton in the sense that if it exists, it will be the solution to a fundamental problem in its field.
 Qaviton offers an easy framework to automate tests that can run against any driver or any testing scenario, and is meant to be like the React Native of software testing.
 
