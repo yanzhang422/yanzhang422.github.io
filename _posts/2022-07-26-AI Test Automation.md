@@ -492,7 +492,7 @@ The testing tool JUnit is written by Beck and Gamma, inspired byBeck’s earlier
 
 另外，功能好不好用关键还在于实现的细节。这里简单对比一下Selenium IDE和Katalon Studio的录制-回放功能。
 | |**Selenium**|**Katalon Studio**|
-| ------ |-------|-------|
+|------|-------|-------|
 |支持类型|**Web browser**: Chrome, Firefox|**Web Browser**: Chrome, Firefox, IE, Edge Chromium **Mobile**: Andriod, iOS **Windows桌面应用|
 |Web browser录制功能|先安装所支持的web browser，添加对应的Selenium IDE plug-in|不需要事先安装web browser，录制测试脚本时在Katalon Studio界面上选择一种web browser|
 |录制|实时生成每一个测试步骤|实时生成每一个测试步骤，并在浏览器上同时捕获操作的界面元素，录制完成后存储到object repository中供编辑和重用|
