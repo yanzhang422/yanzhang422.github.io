@@ -28,14 +28,14 @@ How to register a free Oracle Cloud can vist this [video](https://www.youtube.co
 How to build your own free webiste through google cloud can visis [here](https://www.youtube.com/watch?v=m1zeN29hyhM).
 
 ## Github + Freenom
-1.Create new repository
-2.Add Web files from 模板王, files in html folder are useful
-3.Create a new domain from freenom
-4.Create an account on Cloudflare via [webpage](https://dash.cloudflare.com/69f536abaee149367a56c22b8b67d92a)
-5.Add freenom domain to Cloudflare, made CNAME direction
-6.Then add Cloudflare DNS into freenom (through manager domain-> Management Tools->Nameservers)
-7.Add Cloudflare 名称服务器 (with Cloudflare.com) into freenom (Use custom nameservers)
-8.Add the freenom domain into github page (Custom domain)
+1. Create new repository
+2. Add Web files from 模板王, files in html folder are useful
+3. Create a new domain from freenom
+4. Create an account on Cloudflare via [webpage](https://dash.cloudflare.com/69f536abaee149367a56c22b8b67d92a)
+5. Add freenom domain to Cloudflare, made CNAME direction
+6. Then add Cloudflare DNS into freenom (through manager domain-> Management Tools->Nameservers)
+7. Add Cloudflare 名称服务器 (with Cloudflare.com) into freenom (Use custom nameservers)
+8. Add the freenom domain into github page (Custom domain)
 
 ### cloudflare
 It helps protecting DDoS attack or other malicious accessing your website domain.
