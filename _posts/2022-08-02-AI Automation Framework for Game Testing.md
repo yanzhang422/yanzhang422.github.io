@@ -1,3 +1,11 @@
+---
+layout: post
+title: "AI Automation Framework for Game Testing"
+date: 2022-08-02
+categories: [Quality Assurance, AI & Machine Learning]
+tags: [game-testing, ai, automation, computer-vision, image-recognition]
+---
+
 # Game Test AI Automation Framework
 ## Game AI SDK
 游戏的自动化测试是最难实现自动化测试的应用，没有“之一”，所以之前主要靠玩家、众测。在AI时代，游戏测试也是最早去采用AI技术为测试服务的，几年前就有介绍，之后网易也开源了[Airtest project](https://airtest.netease.com/)，今天我们了解一下腾讯互娱 **Turing Lab**在这方面做的工作。 

@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Payment Integration System"
+date: 2022-07-22
+categories: [Technical Systems, Financial Technology]
+tags: [payment-systems, fintech, integration, architecture, b2b]
+---
+
 # Payment integrated System
 ## Integrated Payment Solution
 Integrated payment systems work by streamlining the payment acceptance process and integrating automatic payment acceptance. The integrated platform automatically process and post payments to its associated merchant or client.

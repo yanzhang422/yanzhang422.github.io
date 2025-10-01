@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Build your own website"
+date: 2022-09-09
+categories: [Development Skills, Web Development]
+tags: [website, github-pages, cloud, domain, hosting, wordpress]
+---
+
 # Build Free Website
 ## Google Cloud + Freenom
 How to build your own free webiste through google cloud can visis [here](https://www.youtube.com/watch?v=uSV4wl8Drr0).

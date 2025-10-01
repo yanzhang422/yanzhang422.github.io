@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Test Automation Framework Suites"
+date: 2022-07-26
+categories: [Quality Assurance, Test Automation]
+tags: [test-automation, selenium, cucumber, bdd, spring-boot, frameworks]
+---
+
 # Automation Functional / Regression Framework
 ## Test Automation Framework (Spring Boot+Selenium+BDD)
 It is an automation framework to test Springboot application with Cucumber, Rest Assured and TestNG

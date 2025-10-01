@@ -1,3 +1,11 @@
+---
+layout: post
+title: "AI Test Automation"
+date: 2022-07-26
+categories: [Quality Assurance, AI & Machine Learning]
+tags: [ai, test-automation, machine-learning, ai-testing, automation-tools]
+---
+
 # AI Test Automation
 人工智能（AI）的定义
 通俗点定义，AI就是让机器实现原来只有人类才能完成的任务

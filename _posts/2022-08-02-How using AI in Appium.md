@@ -1,3 +1,11 @@
+---
+layout: post
+title: "How using AI in Appium"
+date: 2022-08-02
+categories: [Quality Assurance, AI & Machine Learning]
+tags: [appium, ai, mobile-testing, test-automation, machine-learning]
+---
+
 # Appium + Test.ai for Appium AI testing
 通过与Test.ai的团队合作，Appium项目开发了一个AI驱动的元素查找插件[Appium Classifier Plugin](https://github.com/testdotai/appium-classifier-plugin)，专门用于Appium.
 

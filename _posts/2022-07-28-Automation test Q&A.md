@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Test Automation Q&A"
+date: 2022-07-28
+categories: [Quality Assurance, Test Automation]
+tags: [qa, test-automation, selenium, interview-questions, testing-fundamentals]
+---
+
 # Test Automation Question and Answer
 ## Selenium
 1. 什么是自动化测试、自动化测试的优势是什么？

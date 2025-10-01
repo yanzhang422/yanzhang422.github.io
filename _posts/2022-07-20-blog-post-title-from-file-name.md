@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Blog Post Title From First Header"
+date: 2022-07-20
+categories: [Development Skills, Jekyll]
+tags: [jekyll, github-pages, markdown, blogging]
+---
+
 ## Blog Post Title From First Header
 
 Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
@@ -29,4 +37,3 @@ Write-Host "This is a powershell Code block";
 ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
-```

@@ -1,3 +1,11 @@
+---
+layout: post
+title: "IBM Watson User Guide"
+date: 2022-07-21
+categories: [Technical Systems, AI & Machine Learning]
+tags: [ibm-watson, ai, machine-learning, nlp, cloud-platform]
+---
+
 # What is IBM Watson
 It empowers data scientists, developers and analysts to build, run and manager AI models, and optimize decisions anywhere on IBM Cloud platform for data. It can alliance with other open source frameworks like PyTorch, TensorFlow and scikit-learn, work with Jupyter notebooks, JupyterLab and CLIs - or in languages such as Python, R and Scala.
 

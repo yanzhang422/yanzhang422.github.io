@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Cucumber, Selenium and Jira Xray Test Automation Framework"
+date: 2022-07-24
+categories: [Quality Assurance, Test Automation]
+tags: [cucumber, selenium, jira, xray, bdd, test-automation, agile]
+---
+
 #Function/Regression Test Automation Framework: Cucumber, Selenium and Jira Xray
 
 ## Agile Testing Process Requirements
@@ -680,4 +688,3 @@ The overall flow would be something like this:
 ![IDE Interface](https://docs.getxray.app/download/attachments/31622111/image2020-11-11_10-0-42.png?version=1&modificationDate=1622319803033&api=v2&effects=border-simple,shadow-kn)
 
    [dill]: <https://github.com/joemccann/dillinger>
-
