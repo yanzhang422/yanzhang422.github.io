@@ -1,2 +1,2 @@
 # yanzblog.github.io
-Personal website
+My personal tech blog
