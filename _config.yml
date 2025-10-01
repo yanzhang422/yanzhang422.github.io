@@ -34,9 +34,17 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+# Permalink structure - use date-only for cleaner URLs
+permalink: /:year/:month/:day/:title/
+
+# Or use even simpler structure:
+# permalink: /blog/:title/
+
+# Defaults for posts
 defaults:
   - scope:
       path: ""
       type: post
     values:
-      tags: Other
+      layout: post
+      permalink: /:year/:month/:day/:title/
