@@ -3,24 +3,50 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Fixed header */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 /* Home page two-column layout */
 .home-container {
-  display: flex;
-  gap: 2rem;
-  margin-top: 2rem;
-  align-items: flex-start;
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .left-navigator {
-  flex: 0 0 350px;
-  position: sticky;
-  top: 2rem;
-  max-height: calc(100vh - 4rem);
+  position: fixed;
+  left: calc((100vw - 1400px) / 2);
+  width: 280px;
+  top: 120px;
+  max-height: calc(100vh - 140px);
   overflow-y: auto;
   padding: 1.5rem;
   background-color: #f8f9fa;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+/* Ensure footer is not covered by fixed navigator */
+.site-footer {
+  position: relative;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+/* For smaller screens where the left sidebar would be too far left */
+@media (max-width: 1440px) {
+  .left-navigator {
+    left: 20px;
+  }
 }
 
 .navigator-content h1 {
@@ -57,53 +83,56 @@ hr {
 }
 
 .right-content {
-  flex: 1;
-  min-width: 0;
-  padding: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .posts-list h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   color: #333;
   border-bottom: 2px solid #e9ecef;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
+  font-weight: 600;
 }
 
 .post-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .post-list > li {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 2.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .post-list > li:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .post-list .post-meta {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: #6c757d;
+  font-weight: 400;
   margin-bottom: 0.5rem;
 }
 
 .post-list h3 {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .post-list .post-link {
   color: #0366d6;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s ease;
 }
 
 .post-list .post-link:hover {
@@ -114,14 +143,15 @@ hr {
 /* Responsive design for smaller screens */
 @media (max-width: 968px) {
   .home-container {
-    flex-direction: column;
+    padding: 0 1rem;
   }
   
   .left-navigator {
-    flex: 1 1 auto;
     position: static;
-    max-height: none;
+    left: auto;
     width: 100%;
+    max-height: none;
+    margin-bottom: 2rem;
   }
   
   .right-content {
