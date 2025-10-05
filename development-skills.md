@@ -9,7 +9,7 @@ permalink: /development-skills/
 Posts about development tools, websites, and technical learning.
 
 ### 🌐 Web Development
-- [Build your own website](/)
+- [Build your own website](/2022/09/09/build-your-own-website/)
 
 ### 📖 Learning Resources
-- [Books reading](/)
+- [Books reading](/2022/07/20/books-reading/)

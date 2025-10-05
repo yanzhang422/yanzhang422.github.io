@@ -16,7 +16,7 @@ source "https://rubygems.org"
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
-  gem "public_suffix", "~> 6.0"
+  gem "public_suffix", ">= 3.0", "< 6.0"
 
 end
 

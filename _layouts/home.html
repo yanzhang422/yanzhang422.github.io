@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<link href="/css/override.css" rel="stylesheet" type="text/css">
+
+<div class="home-container">
+  <!-- Left Navigator -->
+  <aside class="left-navigator">
+    <div class="navigator-content">
+      {{ content }}
+    </div>
+  </aside>
+
+  <!-- Right Content - All Posts List -->
+  <main class="right-content">
+    <div class="posts-list">
+      <h2>📚 All Posts</h2>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </main>
+</div>

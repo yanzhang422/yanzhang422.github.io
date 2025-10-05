@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Yan Zhang's Tech Blog
 
 ## Welcome to My Technical Journey

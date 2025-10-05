@@ -3,6 +3,132 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Home page two-column layout */
+.home-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+
+.left-navigator {
+  flex: 0 0 350px;
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navigator-content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.navigator-content h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.navigator-content h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.navigator-content h4 {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.navigator-content ul {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navigator-content ul li {
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.right-content {
+  flex: 1;
+  min-width: 0;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.posts-list h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list > li {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.post-list > li:last-child {
+  border-bottom: none;
+}
+
+.post-list .post-meta {
+  display: block;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.post-list h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.post-list .post-link {
+  color: #0366d6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-list .post-link:hover {
+  color: #0256b9;
+  text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 968px) {
+  .home-container {
+    flex-direction: column;
+  }
+  
+  .left-navigator {
+    flex: 1 1 auto;
+    position: static;
+    max-height: none;
+    width: 100%;
+  }
+  
+  .right-content {
+    width: 100%;
+  }
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
