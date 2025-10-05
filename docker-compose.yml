@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    container_name: yanzhang-blog
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # LiveReload port
+    volumes:
+      - .:/srv/jekyll
+      # Don't override the gems directory
+      - bundle-cache:/usr/local/bundle
+      # Prevent vendor/bundle from being overridden by local mount
+      #- /srv/jekyll/vendor/bundle
+    environment:
+      - JEKYLL_ENV=development
+    #command: bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling
+    stdin_open: true
+    tty: true
+
+volumes:
+  bundle-cache:

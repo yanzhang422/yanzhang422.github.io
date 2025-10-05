@@ -1,0 +1,40 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Jekyll build output
+_site
+.jekyll-cache
+.jekyll-metadata
+
+# Docker files (no need to copy these into the image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Documentation that's not needed in the container
+README.md
+LICENSE
+
+# Node modules (if any)
+node_modules
+
+# Ruby bundle
+.bundle
+vendor/bundle
