@@ -1,0 +1,14 @@
+// In your .vscode/settings.json or Continue config
+{
+  "continue.models": [
+    {
+      "title": "DeepSeek Coder",
+      "provider": "openai",
+      "model": "deepseek-coder",
+      "apiBase": "https://api.deepseek.com/v1",
+      "apiKey": "sk-e49e319d583848599dc942e0acbb354b"
+    }
+  ],
+  "continue.enableTabAutocomplete": true,
+  "continue.enableInlineCompletion": true
+}
