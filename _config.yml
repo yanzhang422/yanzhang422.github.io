@@ -50,7 +50,9 @@ permalink: /:year/:month/:day/:title/
 defaults:
   - scope:
       path: ""
-      type: post
+      type: posts
     values:
       layout: post
       permalink: /:year/:month/:day/:title/
+
+repository: yanzhang422/yanzhang422.github.io
