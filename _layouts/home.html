@@ -3,30 +3,82 @@ layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 
-<div class="home-container">
-  <!-- Left Navigator -->
-  <aside class="left-navigator">
-    <div class="navigator-content">
-      {{ content }}
+<div class="medium-layout">
+  <!-- Left Sidebar - Categories -->
+  <aside class="left-sidebar">
+    <nav class="sidebar-nav">
+      <h3>📂 Categories</h3>
+      <ul class="category-list">
+        <li><a href="/quality-assurance/">Quality Assurance & Testing</a></li>
+        <li><a href="/technical-systems/">Technical Systems</a></li>
+        <li><a href="/development-skills/">Development Skills</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Footer in left sidebar -->
+    <div class="sidebar-footer">
+      <p>&copy; 2024 Yan Zhang's Tech Blog</p>
+      <p><small>Write exclusively for technical learning</small></p>
     </div>
   </aside>
 
-  <!-- Right Content - All Posts List -->
-  <main class="right-content">
-    <div class="posts-list">
-      <h2>Posts</h2>
+  <!-- Middle Column - Posts -->
+  <main class="middle-content">
+    <div class="posts-section">
+      <h2 class="section-title">Posts</h2>
       <ul class="post-list">
         {%- for post in site.posts -%}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
+        <li class="post-item">
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h3>
         </li>
         {%- endfor -%}
       </ul>
     </div>
   </main>
+
+  <!-- Right Sidebar - Recent Posts by Category -->
+  <aside class="right-sidebar">
+    <div class="recent-posts-section">
+      <h3 class="sidebar-heading">Recent Posts by Category</h3>
+      
+      <div class="category-posts">
+        <h4>🤖 AI & Automation</h4>
+        <ul>
+          <li><a href="/2022/07/26/ai-test-automation/">AI Test Automation</a></li>
+          <li><a href="/2022/08/02/ai-automation-framework-game-testing/">AI Automation Framework for Game Testing</a></li>
+          <li><a href="/2022/08/02/how-using-ai-in-appium/">How using AI in Appium</a></li>
+        </ul>
+      </div>
+
+      <div class="category-posts">
+        <h4>🧪 Quality Assurance</h4>
+        <ul>
+          <li><a href="/2022/07/28/automation-test-qa/">Automation test Q&A</a></li>
+          <li><a href="/2022/07/29/performance-test-framework/">Performance Test Framework</a></li>
+          <li><a href="/2022/07/30/white-and-grey-testing/">White and Grey Testing</a></li>
+          <li><a href="/2022/07/26/test-automation-framework-suites/">Test Automation Framework Suites</a></li>
+        </ul>
+      </div>
+
+      <div class="category-posts">
+        <h4>💻 Technical Systems</h4>
+        <ul>
+          <li><a href="/2022/07/22/payment-integration-system/">Payment Integration System</a></li>
+          <li><a href="/2022/07/22/robo-advisor/">Robo advisor</a></li>
+          <li><a href="/2022/07/21/ibm-watson-user-guide/">IBM Watson User Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="category-posts">
+        <h4>🛠️ Development</h4>
+        <ul>
+          <li><a href="/2022/09/09/build-your-own-website/">Build your own website</a></li>
+          <li><a href="/2022/07/20/books-reading/">Books reading</a></li>
+        </ul>
+      </div>
+    </div>
+  </aside>
 </div>
